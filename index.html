@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My-portfolio</title>
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css" />
+    <!-- My Css -->
+    <link rel="stylesheet" href="styles/style.css" />
+    <!-- Boxicons -->
+    <link rel="stylesheet" href="vendors/boxicons/css/boxicons.min.css" />
+    <!-- Owl carousel css -->
+    <link
+      rel="stylesheet"
+      href="vendors/owl-carousel/css/owl.carousel.min.css" />
+    <link
+      rel="stylesheet"
+      href="vendors/owl-carousel/css/owl.theme.default.min.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top mynavbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">Ichsan</a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Ichsan</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="#home">Home</a>
+              <a class="nav-link" href="#portfolio">portfolio</a>
+              <a class="nav-link" href="#skills">skills</a>
+              <a class="nav-link" href="#timeline">timeline</a>
+              <a class="nav-link" href="#contact">contact</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+    <!-- Header -->
+    <section class="header-section" id="home">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md-5">
+            <img src="image/profile.png" class="header-img" alt="" />
+          </div>
+          <div class="col-md-6">
+            <p class="text-orange fw-semibold">Ichsan Adi Laksana</p>
+            <h1 class="header-title section-title mb-5">
+              creative design <br class="d-none d-md-block" />
+              based in indonesian
+            </h1>
+            <a
+              href="#"
+              class="header-skill d-inline-flex align-items-center gap-2">
+              Web Development <i class="bx bx-right-arrow-alt fs-4"></i>
+            </a>
+            <br />
+            <a
+              href="#"
+              class="header-skill d-inline-flex align-items-center gap-2">
+              Mobile Development <i class="bx bx-right-arrow-alt fs-4"></i>
+            </a>
+            <br />
+            <a
+              href="#"
+              class="header-skill d-inline-flex align-items-center gap-2">
+              Grapic Designer <i class="bx bx-right-arrow-alt fs-4"></i>
+            </a>
+            <div class="d-flex align-items-center gap-4 mt-5">
+              <div class="d-flex align-items-center gap-2">
+                <h2 class="header-skill fw-bold mb-0">0+</h2>
+                <p class="text-secondary fs-7 mb-0">
+                  Years of <br />
+                  Experience
+                </p>
+              </div>
+              <div class="d-flex align-items-center gap-2 experience">
+                <h2 class="header-skill fw-bold mb-0">I'm</h2>
+                <p class="text-secondary fs-7 mb-0">
+                  Need More For <br />
+                  Experience
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Header -->
+    <!-- portfolio -->
+    <section class="portfolio-section" id="portfolio">
+      <div class="container">
+        <div class="row justify-content-between">
+          <p class="text-orange fw-semibold">portfolio</p>
+          <h2 class="section-title mb-5">selected works</h2>
+        </div>
+        <div class="row justify-content-evenly">
+          <div class="owl-carousel owl-theme">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="image/project1.jpg"
+                  alt="Project 1"
+                  class="card-img-top rounded" />
+                <h6 class="fw-semibold">E-commerce for Laravel 10</h6>
+                <a href="#" class="btn btn-orange">Detail Portofolio</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="image/project2.jpg"
+                  alt="Project 2"
+                  class="card-img-top rounded" />
+                <h6 class="fw-semibold">Project Wedding Card UI</h6>
+                <a
+                  href="https://gawrgu.github.io/wedding-card/"
+                  target="_blank"
+                  class="btn btn-orange"
+                  >Detail Portofolio</a
+                >
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="image/project3.jpg"
+                  alt="Project 3"
+                  class="card-img-top rounded" />
+                <h6 class="fw-semibold">Project Caffe Terrace UI</h6>
+                <a
+                  href="https://gawrgu.github.io/caffe-terrace/"
+                  class="btn btn-orange"
+                  >Detail Portofolio</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End portfolio -->
+
+    <!-- Skills Section -->
+    <section class="skills-section" id="skills">
+      <div class="container">
+        <div class="row align-content-center justify-content-between">
+          <div class="col-md-5">
+            <img
+              src="image/profile.png"
+              alt="Ichsan Adi Laksana"
+              class="skill-img" />
+          </div>
+          <div class="col-md-6">
+            <p class="text-orange fw-semibold text-uppercase">skills</p>
+            <h2 class="section-title mb-5 text-uppercase">my skills</h2>
+            <div class="mb-3">
+              <div
+                class="d-flex align-items-center justify-content-between mb-2">
+                <p class="text-white fw-semibold mb-0">ms. office</p>
+                <p class="text-white mb-0">90%</p>
+              </div>
+              <div class="progress-bar">
+                <span class="progress" style="width: 90%"></span>
+              </div>
+            </div>
+            <div class="mb-3">
+              <div
+                class="d-flex align-items-center justify-content-between mb-2">
+                <p class="text-white fw-semibold mb-0">html</p>
+                <p class="text-white mb-0">60%</p>
+              </div>
+              <div class="progress-bar">
+                <span class="progress" style="width: 60%"></span>
+              </div>
+            </div>
+            <div class="mb-3">
+              <div
+                class="d-flex align-items-center justify-content-between mb-2">
+                <p class="text-white fw-semibold mb-0">CSS</p>
+                <p class="text-white mb-0">60%</p>
+              </div>
+              <div class="progress-bar">
+                <span class="progress" style="width: 60%"></span>
+              </div>
+            </div>
+            <div class="mb-3">
+              <div
+                class="d-flex align-items-center justify-content-between mb-2">
+                <p class="text-white fw-semibold mb-0">javascript</p>
+                <p class="text-white mb-0">50%</p>
+              </div>
+              <div class="progress-bar">
+                <span class="progress" style="width: 50%"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Skills Section end -->
+
+    <!-- Timeline section -->
+    <section class="timeline-section" id="timeline">
+      <div class="container">
+        <p class="text-orange fw-semibold">timeline</p>
+        <h2 class="section-title mb-5">working period</h2>
+        <div class="row py-3 border-bottom working-period-items">
+          <div class="col-md-4 text-capitalize">
+            1 juni 2017 - 31-agustus-2017
+          </div>
+          <div class="col-md-4 text-capitalize">praktek kerja lapangan.</div>
+          <div class="col-md-4 text-capitalize">servis lampu piji.</div>
+        </div>
+        <div class="row py-3 border-bottom working-period-items">
+          <div class="col-md-4 text-capitalize">
+            1 januari 2023 - 31-februari-2021
+          </div>
+          <div class="col-md-4 text-capitalize">praktek kerja lapangan.</div>
+          <div class="col-md-4 text-capitalize">
+            bpn (badan pertanahan nasional) kudus.
+          </div>
+        </div>
+        <div class="row py-3 border-bottom working-period-items">
+          <div class="col-md-4 text-capitalize">1 juni 2023 - 31-juli-2023</div>
+          <div class="col-md-4 text-capitalize">
+            petugas lapangan sensus (pls).
+          </div>
+          <div class="col-md-4 text-capitalize">
+            bps (badan pusat statistik) kudus.
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Timeline section end -->
+
+    <!-- Contact section -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md-6">
+            <p class="text-orange fw-semibold">contact</p>
+            <h2 class="section-title mb-5">get in touch</h2>
+            <p class="mb-3">
+              please contact me on 9.00 a.m - 8.00 p.m et, monday through
+              saturday.
+            </p>
+            <div class="d-flex align-items-center gap-2 mb-3">
+              <i class="bx bx-map-pin text-orange fs-5"></i>
+              <div class="mb-0">
+                <a
+                  href="https://goo.gl/maps/ahQHjEUgsGK72QnL8"
+                  target="_blank"
+                  class="text-dark"
+                  >Ds. Cendono Rt 01 Rw 09 Kec. Dawe Kab.Kudus Jawa Tengah</a
+                >
+              </div>
+            </div>
+            <div class="d-flex align-items-center gap-2 mb-3">
+              <i class="bx bxl-whatsapp text-orange fs-5"></i>
+              <div class="mb-0">
+                <a
+                  href="https://wa.me/6289601468394"
+                  class="text-dark"
+                  target="_blank"
+                  >+62 896 0146 8394</a
+                >
+              </div>
+            </div>
+            <div class="d-flex align-items-center gap-2 mb-3">
+              <i class="bx bx-envelope text-orange fs-5"></i>
+              <div class="mb-0">
+                <a
+                  href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=ichsanadilaksana@gmail.com"
+                  class="text-dark"
+                  target="_blank"
+                  >ichsanadilaksana@gmail.com</a
+                >
+              </div>
+            </div>
+            <div class="d-flex align-items-center gap-2 mb-3">
+              <i class="bx bxl-linkedin text-orange fs-5"></i>
+              <div class="mb-0">
+                <a
+                  href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+                  class="text-dark"
+                  target="_blank"
+                  >Ichsan Adi Laksana</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <form action="#">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Name"
+                class="form-control rounded-0 mb-2" />
+              <input
+                type="text"
+                name="email"
+                id="email"
+                placeholder="E-mail"
+                class="form-control rounded-0 mb-2" />
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Message"
+                cols="30"
+                rows="3"
+                class="form-control rounded-0 mb-2"></textarea>
+              <button type="submit" class="btn btn-orange w-100">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact section end -->
+
+    <!-- Footer -->
+    <footer class="py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="text-white fw-7 mb-0 text-start">
+              Copyright &copy; <span class="text-orange">2023</span>
+            </p>
+          </div>
+          <div class="col-md-6">
+            <p class="text-white fw-7 mb-0 text-end">
+              Ichsan Adi Laksana Only Reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Bootrap js -->
+    <script src="vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Jqery js -->
+    <script src="vendors/owl-carousel/jquery-3.6.3.min.js"></script>
+    <!-- tilt Js -->
+    <script src="vendors/owl-carousel/vanilla-tilt.min.js"></script>
+    <!-- owl carousel -->
+    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        stagePadding: 16,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        loop: true,
+        margin: 10,
+        nav: false,
+        responsive: {
+          0: {
+            items: 2,
+          },
+          600: {
+            items: 3,
+          },
+          1000: {
+            items: 4,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
