@@ -27,6 +27,10 @@ img {
 a {
   text-decoration: none;
 }
+
+h2 {
+  font-size: var(--h2-font-size);
+}
 /* Global Css */
 section {
   padding: 70px 0;
@@ -99,6 +103,10 @@ section .section-title {
 
 .header-section .header-skill {
   color: var(--dark);
+}
+
+.header-section .header-skill .fs-7 {
+  font-size: var(--small-font-size);
 }
 .header-section .header-skill:hover {
   color: var(--primary);
@@ -226,6 +234,10 @@ footer {
 @media screen and (max-width: 576px) {
   html {
     font-size: 50%;
+  }
+  .header-section .name,
+  .header-section h1 {
+    text-align: center;
   }
 }
 /* Tiny Mobile */
